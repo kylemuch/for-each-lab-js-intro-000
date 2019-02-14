@@ -11,3 +11,7 @@ function iterate(cb) {
   
   return myArr;
 }
+
+function doToArray(arr, cb) {
+  arr.forEach(cb)
+}
